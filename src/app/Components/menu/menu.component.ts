@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-menu',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
-export class MenuComponent {
-
+export class MenuComponent implements OnInit{
+  ngOnInit(): void {
+    console.log( "Deu certo!!!!!!!!!!!!!!!");
+  }
+  
 }

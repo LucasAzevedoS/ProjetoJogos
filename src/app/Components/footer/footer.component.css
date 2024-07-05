@@ -6,7 +6,7 @@
   }
 
 .footer {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -19,14 +19,8 @@
 .footer a:hover {
     text-decoration: underline;
 }
-.footer .social-icons {
-    margin: 20px 0;
-}
-.footer .social-icons a {
-    margin: 0 10px;
-    font-size: 24px;
-}
+
 .footer .copyright {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 14px;
 }
